@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layout>
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addJs">
+                <js>ricardomartins/findcep.js</js>
+            </action>
+        </reference>
+    </checkout_onepage_index>
+</layout>

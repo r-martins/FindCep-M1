@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RicardoMartins_Findcep>
+            <active>true</active>
+            <codePool>community</codePool>
+        </RicardoMartins_Findcep>
+    </modules>
+</config>

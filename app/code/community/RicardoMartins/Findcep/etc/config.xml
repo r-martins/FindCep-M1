@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RicardoMartins_Findcep>
+            <version>1.0.0</version>
+        </RicardoMartins_Findcep>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <ricardomartins_findcep>
+                    <file>ricardomartins_findcep.xml</file>
+                </ricardomartins_findcep>
+            </updates>
+        </layout>
+        <routers>
+            <ricardomartins_findcep>
+                <use>standard</use>
+                <args>
+                    <module>RicardoMartins_Findcep</module>
+                    <frontName>findcep</frontName>
+                </args>
+            </ricardomartins_findcep>
+        </routers>
+    </frontend>
+</config>
